@@ -1,0 +1,133 @@
+body{
+
+    background-color:rgb(196, 187, 187);
+}
+
+
+.entete{
+display: flex;
+    background-color:#3b5998 ;
+    height:70px ;
+    width: 100%;
+    align-items: center;
+
+}
+.logo{
+
+    
+   flex:1;
+
+}
+.search{
+
+background-color: white;
+ flex: 5;
+ height: 30px;
+ border-radius:12px ;
+ border: solid;
+ text-align:right
+
+}
+
+.icone{
+flex: 3;
+text-align: right;
+  
+}
+.section1 {
+    display: flex;
+    background-color:#3b5998 ;
+    width: 1300px;
+    height: 500px;
+    margin-top: 1%;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+.profil{
+
+margin-top: 370px;
+margin-left: 20px;
+
+}
+.name{
+font-size: large;
+font-weight: bold;
+margin-top: 420px;
+margin-left: 50px;
+color: white;
+
+}
+
+.barre{
+    background-color: white;
+display: flex;
+font-weight: bold;
+width: 1300px;
+margin-left: 200px;
+
+
+
+}
+p{
+justify-content: space-around;
+  flex-basis: 10px;
+ margin-left: 170px;
+ border:transparent,grey
+}
+nav{
+background-color: white;
+width: 350px;
+height: 200px;
+margin-top: 12px;
+margin-left: 200px;
+}
+.corp{
+display: flex;
+background-color:#3b5998 ;
+width: 950px;
+height: 624px;
+margin-left: 555px;
+margin-top: -624px;
+display: flex;
+align-items: center;
+
+}
+.article{
+
+height: 500px;
+width: 600px;
+background-color: white;
+margin-left: 40px;
+
+
+}
+
+aside{
+ 
+height: 150px;
+width: 200px;
+background-color: whitesmoke;
+
+
+}
+.ajouter{
+
+    margin-left: 800px;
+    margin-top: 450px; 
+
+}
+
+.pied{
+    display: flex;
+background-color:#3b5998 ;
+height: 70px;
+width: 100%;
+margin-top: 1%;
+align-items:center;
+justify-content: space-around;
+
+
+
+
+
+}
